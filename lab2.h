@@ -52,8 +52,7 @@ bool WordIsPalindrome(string word);
  * @return a string containing the contents of the array, separated by spaces; returns empty string
  *         if the startIndex is >= the size of the array
  */
-string ArrayForwardsAsString(int array[], unsigned int start,
-                             unsigned int size);
+string ArrayForwardsAsString(int array[], unsigned int start, unsigned int size);
 
 /*
  * Produce a string containing the contents of an array, separated by single spaces,
