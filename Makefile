@@ -1,3 +1,12 @@
+lab3test: lab3.o lab_3_unit_test.o
+	g++ -Wall -g -o lab3 lab3.o lab_3_unit_test.o
+
+lab3: lab3.cpp
+	g++ -Wall -g -c lab3.cpp
+
+lab3_unit: lab_3_unit_test.cpp
+	g++ -Wall -g -c lab_3_unit_test.cpp
+
 lab2test: lab2.o lab_2_unit_test.o
 	g++ -Wall -g -o lab2 lab2.o lab_2_unit_test.o
 
