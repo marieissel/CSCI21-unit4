@@ -1,8 +1,9 @@
-lab4test: lab4.o lab_4_unit_test.o
-	g++ -Wall -g -o lab4 lab4.o lab_4_unit_test.o
+lab4test: lab_4_unit_test.o bs_tree.o bst_node.o
+	g++ -Wall -g -o lab4 lab_4_unit_test.o bs_tree.o bst_node.o
 
-lab4: lab4.cpp lab3.cpp
-	g++ -Wall -g -c lab4.cpp lab3.cpp
+lab4: bs_tree.cpp bst_node.cpp
+	g++ -Wall -g -c bs_tree.cpp 
+	g++ -Wall -g -c bst_node.cpp
 
 lab4_unit: lab_4_unit_test.cpp
 	g++ -Wall -g -c lab_4_unit_test.cpp

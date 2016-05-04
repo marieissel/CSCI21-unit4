@@ -10,10 +10,13 @@
 #include <iostream>
 #include <string>
 #include <cstring>
-#include "lab3.cpp"
+//#include "lab3.cpp"
+#include "bst_node.h"
+#include <sstream>
 using std::cout;
 using std::endl;
 using std::string;
+using std::stringstream;
 
 class BSTree 
 {

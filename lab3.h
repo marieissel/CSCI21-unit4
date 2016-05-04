@@ -4,8 +4,8 @@
  * Description : Header File for Lab #3
  */
 
-#ifndef LAB_C
-#define LAB_C
+#ifndef LAB_E
+#define LAB_E
 
 #include <iostream>
 #include <string>

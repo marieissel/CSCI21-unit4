@@ -8,11 +8,11 @@
 
 // For NULL
 #include <cstddef>
-#include "lab3.h"
+#include "bst_node.h"
 // To test for correct header guards
-#include "lab4.h"
-#include "lab4.h"
-#include "lab3.h"
+#include "bs_tree.h"
+#include "bs_tree.h"
+#include "bst_node.h"
 
 TEST_CASE("Default Constructor for BSTNode") {
   const BSTNode const_node;
